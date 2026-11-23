@@ -45,17 +45,22 @@
         animation-delay: 20000s;
 
     }
-    #contact:hover{
+    /* .contact:hover{
         font-size: 15px;
         animation-delay: 20000ms;
 
+    } */
+    .info:hover{
+        font-size: 15px;
+        animation-delay: 20000ms;
     }
     .button:hover{
-        font-size: 22px;
+        color: greenyellow;
+        border-color: greenyellow;
             
     } 
-    button{ 
-        font-size: 20px;
+    .button{ 
+        font-size: 18px;
         background-color: black;
         color: white;
         border-radius: 10px;
@@ -92,6 +97,37 @@
         margin-left: 0px;
 
     }
+
+    .speaker{
+
+        border: 1px solid rgb(234, 226, 226);
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 5px;
+        padding-left: px;
+        margin-left: 0px;
+        padding-left: 10px;
+
+
+    }
+    .speakers{
+        border: 1px solid rgb(234, 226, 226);
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        border-color: white;
+        font-size: 16px;
+
+        
+    }
+    .speakers:hover{
+        font-size: 18px;
+    }
+
     .contact{
         margin-top: 10px;
         border: 1px solid rgb(234, 226, 226);
@@ -150,6 +186,7 @@
     
 </style>
 <body style="background-color: whitesmoke">
+    
     <header>
     <h1>
         Welcome to GeeksForGeeks TechCon 2026 
@@ -162,6 +199,7 @@
             
             <a href="#about" style="text-decoration: none; color: white;">About</a>
             <a href="#schedule" style="text-decoration: none; color: white;">Schedule</a>
+            <a href="#speakers" style="text-decoration: none; color: white;">Speakers</a>
             <a href="#contact" style="text-decoration: none; color: white;">Contact</a>
         </h3>
 
@@ -236,21 +274,65 @@
 </div>
 </section>
 
+<section id="speakers">
+    <div class="speaker">
+
+        
+        <h1 style="color: #007bff; text-align: left;">Meet the Speakers</h1>
+        
+        <div class="speakers">
+            <p>
+    <strong style="color: #007bff;">Dr. Radhika Sharma:</strong>
+    AI Expert and Researcher
+</p>
+
+<p>
+    <strong style="color: #007bff;">Mr. Arvind Kumar:</strong>
+    Senior Data Scientist at TechWave
+</p>
+
+<p>
+    <strong style="color: #007bff;">Ms. Neha Gupta:</strong>
+    Cloud Computing Specialist at CloudTech
+</p>
+
+<p>
+    <strong style="color: #007bff;">Mr. Sandeep Reddy:</strong>
+    Full Stack Developer and Open-Source Contributor
+</p>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</section>
+
 <section id="contact">
 
 <div class="contact">
     
     <h1 style="color: #007bff; text-align: left;">Contact Us</h1>
-    
-    <h2>Name:</h2>
-    <input type="text" name="name" id="name" size="80px">
-
-    <h2>Email:</h2>
-    <input type="email" name="email" id="email" size="80px">
-
-    <h2>Message:</h2>
-    <textarea name="message" id="message"></textarea>
-
+    <div class="info">
+        
+        <h2>Name:</h2>
+        <input type="text" name="name" id="name" size="80px">
+        
+        <h2>Email:</h2>
+        <input type="email" name="email" id="email" size="80px">
+        
+        <h2>Message:</h2>
+        <textarea name="message" id="message"></textarea>
+        
+    </div>
 
 
     
